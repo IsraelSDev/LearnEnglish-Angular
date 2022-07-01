@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TentativasComponent implements OnInit {
 
-  constructor() { }
+
+  fillOne: string = "red";
+  fillTwo: string = "red";
+  fillThree: string = "red";
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

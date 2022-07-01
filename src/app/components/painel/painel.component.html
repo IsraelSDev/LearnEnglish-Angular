@@ -1,3 +1,26 @@
-<p>painel works!</p>
-<app-progresso></app-progresso>
-<app-tentativas></app-tentativas>
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-6">
+        <app-progresso></app-progresso>
+      </div>
+      <div class="col-sm-6">
+        <app-tentativas></app-tentativas>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h5>{{ instrucao }}</h5>
+        <p>{{ frases[0].fraseEng }}</p>
+        <div class="form-floating">
+          <textarea class="form-control" style="height: 100px"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 d-flex justify-content-end">
+        <button type="button" class="btn btn-primary">Verificar</button>
+      </div>
+    </div>
+  </div>
+</div>
