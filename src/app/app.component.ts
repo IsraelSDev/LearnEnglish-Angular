@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'apptasks';
+
+
+  public gameRunning: boolean = true;
+  public endGame: string = "";
+
+
+  finishGame(tipo: string): void {
+    this.gameRunning = false
+    this.endGame = tipo;
+  }
+  restartGame(): void {
+    this.gameRunning = true;
+    this.endGame = "";
+  }
 }

@@ -3,36 +3,29 @@ import { Frase } from "src/app/shared/frase.model";
 export const FRASES: Frase[] = [
   {
     fraseEng: "Hello, how are you?",
-    frasePtBr: "Olá, como vai você?"
+    // frasePtBr: "Olá, como vai você?"
+    frasePtBr: ""
   },
   {
     fraseEng: "I'm fine, thank you",
-    frasePtBr: "Estou bem, obrigado"
+    // frasePtBr: "Estou bem, obrigado
+    frasePtBr: ""
   },
   {
     fraseEng: "I'm learning English",
-    frasePtBr: "Estou aprendendo inglês"
+    // frasePtBr: "Estou aprendendo inglês"
+    frasePtBr: ""
 
   },
   {
-    fraseEng: "I'm learning Portuguese",
-    frasePtBr: "Estou aprendendo português"
-  },
-  {
-    fraseEng: "I'm learning French",
-    frasePtBr: "Estou aprendendo francês"
-  },
-  {
     fraseEng: "I'm learning Spanish",
-    frasePtBr: "Estou aprendendo espanhol"
+    // frasePtBr: "Estou aprendendo espanhol"
+    frasePtBr: ""
   },
   {
-    fraseEng: "I'm learning German",
-    frasePtBr: "Estou aprendendo alemão"
-  },
-  {
-    fraseEng: "I'm learning Italian",
-    frasePtBr: "Estou aprendendo italiano"
-  },
+    fraseEng: "I'm a boy",
+    // frasePtBr: "Eu sou um garoto"
+    frasePtBr: ""
+  }
 ]
 
