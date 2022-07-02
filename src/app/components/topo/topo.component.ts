@@ -8,6 +8,5 @@ import { Component } from "@angular/core";
 
 export class TopoComponent {
   public titulo: string = "Aplicação Topo";
-  public name: string = "Israel Soares dos Santos";
-
+  public name: string = "Israel Santos";
 }
